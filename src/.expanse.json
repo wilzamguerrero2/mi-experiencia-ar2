@@ -1,0 +1,215 @@
+{
+  "entrySpaceId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+  "objects": {
+    "14d04060-0b63-45ef-9620-42a846e7e01d": {
+      "components": {
+        "340d4ea7-4109-4504-b51b-bff6b42bbe84": {
+          "id": "340d4ea7-4109-4504-b51b-bff6b42bbe84",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "fromX": 1,
+            "fromY": 1,
+            "fromZ": 1,
+            "reverse": true,
+            "toX": -1,
+            "toY": -1,
+            "toZ": -1
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "14d04060-0b63-45ef-9620-42a846e7e01d",
+      "material": {
+        "type": "basic",
+        "color": "#7611b6",
+        "textureFiltering": "sharp"
+      },
+      "name": "Cubo",
+      "order": 3.5,
+      "parentId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "position": [
+        0,
+        0.5,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.696,
+        0.696,
+        0.696
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "207c7090-6d66-4e55-a5a0-7c566f7da168": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "disabled"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "207c7090-6d66-4e55-a5a0-7c566f7da168",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "position": [
+        0,
+        0.852,
+        -4.425
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "5e313b6b-beb3-4ce3-8e8c-f2b08802bfaa": {
+      "components": {},
+      "geometry": null,
+      "id": "5e313b6b-beb3-4ce3-8e8c-f2b08802bfaa",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "7b06a3fa-dcfe-4f0c-b77c-f9ab8204d136": {
+      "components": {},
+      "geometry": null,
+      "id": "7b06a3fa-dcfe-4f0c-b77c-f9ab8204d136",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "9349583b-85ee-43d4-ac63-819b8c528839": {
+      "components": {},
+      "geometry": null,
+      "id": "9349583b-85ee-43d4-ac63-819b8c528839",
+      "imageTarget": {
+        "name": "unity-logo-png_seeklogo-274050"
+      },
+      "material": null,
+      "name": "Marcador · unity-logo-png_seeklogo-274050 copia",
+      "order": 5.5,
+      "parentId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "dc9acc92-ddc0-4d56-b9f6-e87add5996b1": {
+      "components": {},
+      "geometry": null,
+      "id": "dc9acc92-ddc0-4d56-b9f6-e87add5996b1",
+      "imageTarget": {
+        "name": "unity-logo-png_seeklogo-274050"
+      },
+      "material": null,
+      "name": "Marcador · unity-logo-png_seeklogo-274050",
+      "order": 4.5,
+      "parentId": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "e0e29400-c645-4c7b-bf81-628dceef3eca": {
+      "activeCamera": "207c7090-6d66-4e55-a5a0-7c566f7da168",
+      "id": "e0e29400-c645-4c7b-bf81-628dceef3eca",
+      "name": "Espacio principal"
+    }
+  }
+}

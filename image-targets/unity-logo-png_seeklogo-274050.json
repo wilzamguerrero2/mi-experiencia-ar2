@@ -1,0 +1,24 @@
+{
+  "imagePath": "image-targets/unity-logo-png_seeklogo-274050_luminance.png",
+  "resources": {
+    "originalImage": "unity-logo-png_seeklogo-274050_original.png",
+    "croppedImage": "unity-logo-png_seeklogo-274050_cropped.png",
+    "thumbnailImage": "unity-logo-png_seeklogo-274050_thumbnail.png",
+    "luminanceImage": "unity-logo-png_seeklogo-274050_luminance.png"
+  },
+  "name": "unity-logo-png_seeklogo-274050",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 600,
+    "height": 600,
+    "isRotated": false,
+    "originalWidth": 600,
+    "originalHeight": 600
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1787863041139,
+  "updated": 1787863041139
+}
