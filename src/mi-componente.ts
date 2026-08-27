@@ -10,7 +10,7 @@ ecs.registerComponent({
     velocidad: 1,
   },
   tick: (world, component) => {
-    const angulo = world.time.elapsed / 1000 * component.data.velocidad
+    const angulo = world.time.elapsed / 1000 * component.schema.velocidad
     // Cuaternión de un giro sobre Y: (0, sin(θ/2), 0, cos(θ/2)).
     ecs.Quaternion.set(world, component.eid, {
       x: 0,

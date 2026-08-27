@@ -1,4 +1,4 @@
-# Mi experiencia AR2
+# Mi experiencia AR
 
 Experiencia de realidad aumentada creada con INRE.
 

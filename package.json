@@ -2,7 +2,7 @@
   "name": "@8thwall/studio-build",
   "version": "0.1.0",
   "private": true,
-  "description": "Mi experiencia AR2",
+  "description": "Mi experiencia AR",
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js --config config/webpack.config.js",
     "serve": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode=development --config config/webpack.config.js"
