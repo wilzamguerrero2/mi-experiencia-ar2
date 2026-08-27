@@ -3,17 +3,25 @@
 Experiencia de realidad aumentada creada con INRE.
 
 **Modo:** World Effects (anclaje al suelo con SLAM)
-**En vivo:** https://wilzamguerrero2.github.io/mi-experiencia-ar2/
+**Hosting:** Vercel
+**En vivo:** la asigna Vercel al conectar el repositorio
 
 ---
 
 ## Cómo se publica
 
-Cada `push` a `main` dispara `.github/workflows/deploy.yml`, que compila el
-proyecto y lo publica en GitHub Pages. No hay que hacer nada más: **editar y guardar
-desde INRE crea un commit, y el commit actualiza la experiencia.**
+En Vercel: **Add New → Project**, importa este repositorio y despliega. No hay nada
+que rellenar, porque `vercel.json` ya lo trae:
 
-Si es la primera vez, activa Pages en *Settings → Pages → Source: GitHub Actions*.
+| Ajuste | Valor | De dónde sale |
+| --- | --- | --- |
+| Framework Preset | Other | `vercel.json` |
+| Build Command | `npm run build` | `vercel.json` |
+| Output Directory | `dist` | `vercel.json` |
+| Node.js Version | la LTS más nueva | `engines` del `package.json` |
+
+Hecho eso, **cada `push` a `main` vuelve a desplegar**: editar y guardar desde INRE
+crea un commit, y el commit actualiza la experiencia.
 
 ## Cómo editarlo
 
@@ -33,8 +41,10 @@ npm run build     # compila en dist/
 
 ## Publicarlo en otro sitio
 
-`dist/` es un sitio estático corriente. Sirve tal cual en Cloudflare Pages, Vercel,
-Netlify o cualquier hosting. Solo dos requisitos:
+`dist/` es un sitio estático corriente. Sirve tal cual en Netlify, GitHub Pages o
+cualquier hosting; la configuración de Vercel y de Cloudflare ya viene en el
+repositorio, así que cambiar de una a otra es conectar el repositorio y nada más. Solo
+dos requisitos:
 
 - **HTTPS**, porque la cámara exige contexto seguro.
 - No bloquear `cdn.jsdelivr.net`, de donde se carga el motor.
@@ -48,6 +58,9 @@ src/*.ts              componentes propios
 src/assets/           modelos, texturas, vídeo, audio
 image-targets/        marcadores de imagen
 config/               configuración de webpack (MIT, de 8th Wall)
+vercel.json           despliegue en Vercel
+wrangler.toml         despliegue en Cloudflare Pages
+.node-version         versión de Node con la que se compila
 ```
 
 ## Licencias

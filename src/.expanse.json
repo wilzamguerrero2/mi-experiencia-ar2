@@ -1,47 +1,10 @@
 {
-  "entrySpaceId": "59abb796-496f-428b-84b4-fe12b55ae52a",
+  "entrySpaceId": "be733dc5-47a4-40a5-9cb4-d6115cdd949e",
   "objects": {
-    "84dce0f7-97ea-4b91-b947-30ee7f0fc0e5": {
-      "camera": {
-        "type": "perspective",
-        "fov": 60,
-        "nearClip": 0.01,
-        "farClip": 1000,
-        "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "3D",
-          "headset": "disabled"
-        }
-      },
+    "03827ff9-d648-4d8a-99be-2e0d5baf6e85": {
       "components": {},
       "geometry": null,
-      "id": "84dce0f7-97ea-4b91-b947-30ee7f0fc0e5",
-      "material": null,
-      "name": "Cámara",
-      "order": 0.5,
-      "parentId": "59abb796-496f-428b-84b4-fe12b55ae52a",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "9d542010-6503-43f2-b50d-87e6ce49c9b8": {
-      "components": {},
-      "geometry": null,
-      "id": "9d542010-6503-43f2-b50d-87e6ce49c9b8",
+      "id": "03827ff9-d648-4d8a-99be-2e0d5baf6e85",
       "light": {
         "type": "directional",
         "intensity": 1
@@ -49,7 +12,7 @@
       "material": null,
       "name": "Luz direccional",
       "order": 2.5,
-      "parentId": "59abb796-496f-428b-84b4-fe12b55ae52a",
+      "parentId": "be733dc5-47a4-40a5-9cb4-d6115cdd949e",
       "position": [
         20,
         50,
@@ -67,17 +30,17 @@
         1
       ]
     },
-    "a5b0841b-63a4-49fa-bf83-596ce329c8df": {
+    "085537c4-bf12-4103-abd0-9f6c03fa149e": {
       "components": {},
       "geometry": null,
-      "id": "a5b0841b-63a4-49fa-bf83-596ce329c8df",
+      "id": "085537c4-bf12-4103-abd0-9f6c03fa149e",
       "light": {
         "type": "ambient"
       },
       "material": null,
       "name": "Luz ambiental",
       "order": 1.5,
-      "parentId": "59abb796-496f-428b-84b4-fe12b55ae52a",
+      "parentId": "be733dc5-47a4-40a5-9cb4-d6115cdd949e",
       "position": [
         10,
         5,
@@ -95,7 +58,72 @@
         1
       ]
     },
-    "c19da1bf-0e18-4944-9945-c5d96c090063": {
+    "0bf2d2f9-b569-4e6f-90f9-f0b19f799b88": {
+      "components": {},
+      "geometry": null,
+      "id": "0bf2d2f9-b569-4e6f-90f9-f0b19f799b88",
+      "imageTarget": {
+        "name": "unity-logo-png_seeklogo-274050"
+      },
+      "material": null,
+      "name": "Marcador · unity-logo-png_seeklogo-274050",
+      "order": 4.5,
+      "parentId": "be733dc5-47a4-40a5-9cb4-d6115cdd949e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "1b29444b-c8d0-41ac-be03-e5a80970ba6d": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "disabled"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "1b29444b-c8d0-41ac-be03-e5a80970ba6d",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "be733dc5-47a4-40a5-9cb4-d6115cdd949e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "83328969-0a47-4828-adac-b3a0af6abf00": {
       "components": {},
       "geometry": {
         "type": "box",
@@ -103,19 +131,19 @@
         "height": 1,
         "depth": 1
       },
-      "id": "c19da1bf-0e18-4944-9945-c5d96c090063",
+      "id": "83328969-0a47-4828-adac-b3a0af6abf00",
       "material": {
         "type": "basic",
         "color": "#7611b6",
         "textureFiltering": "sharp"
       },
       "name": "Cubo",
-      "order": 3.5,
-      "parentId": "59abb796-496f-428b-84b4-fe12b55ae52a",
+      "order": 0.016152628284341164,
+      "parentId": "0bf2d2f9-b569-4e6f-90f9-f0b19f799b88",
       "position": [
         0,
-        0.5,
-        -2.5
+        0.001,
+        0.683
       ],
       "rotation": [
         0,
@@ -135,9 +163,9 @@
     }
   },
   "spaces": {
-    "59abb796-496f-428b-84b4-fe12b55ae52a": {
-      "activeCamera": "84dce0f7-97ea-4b91-b947-30ee7f0fc0e5",
-      "id": "59abb796-496f-428b-84b4-fe12b55ae52a",
+    "be733dc5-47a4-40a5-9cb4-d6115cdd949e": {
+      "activeCamera": "1b29444b-c8d0-41ac-be03-e5a80970ba6d",
+      "id": "be733dc5-47a4-40a5-9cb4-d6115cdd949e",
       "name": "Espacio principal"
     }
   }
