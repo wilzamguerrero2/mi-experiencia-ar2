@@ -52,15 +52,16 @@ dos requisitos:
 ## Estructura
 
 ```
-src/.expanse.json     la escena: objetos, materiales, luces, componentes
-src/index.html        página de entrada; carga el motor
-src/*.ts              componentes propios
-src/assets/           modelos, texturas, vídeo, audio
-image-targets/        marcadores de imagen
-config/               configuración de webpack (MIT, de 8th Wall)
-vercel.json           despliegue en Vercel
-wrangler.toml         despliegue en Cloudflare Pages
-.node-version         versión de Node con la que se compila
+src/.expanse.json       la escena: objetos, materiales, luces, componentes
+src/index.html          página de entrada; carga el motor
+src/*.ts                componentes propios
+src/inre-marcadores.ts  carga los marcadores en el motor; lo genera INRE
+src/assets/             modelos, texturas, vídeo, audio
+image-targets/          marcadores de imagen
+config/                 configuración de webpack (MIT, de 8th Wall)
+vercel.json             despliegue en Vercel
+wrangler.toml           despliegue en Cloudflare Pages
+.node-version           versión de Node con la que se compila
 ```
 
 ## Licencias
