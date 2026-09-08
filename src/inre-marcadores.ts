@@ -1,4 +1,4 @@
-import marcador0 from '../image-targets/image_1786926390310.json'
+import marcador0 from '../image-targets/cube1.json'
 
 /**
  * Carga los marcadores de imagen en el motor.
