@@ -2,7 +2,20 @@
   "entrySpaceId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
   "objects": {
     "057f6c37-0793-4d3f-96d4-4350770711e9": {
-      "components": {},
+      "components": {
+        "c4c3405b-69bf-4cf0-bc66-a9f0e3a066f1": {
+          "id": "c4c3405b-69bf-4cf0-bc66-a9f0e3a066f1",
+          "name": "inre-video",
+          "parameters": {
+            "alphaTest": 0.5,
+            "blending": "normal",
+            "depthTest": true,
+            "depthWrite": false,
+            "forceTransparent": true,
+            "side": "double"
+          }
+        }
+      },
       "geometry": {
         "type": "box",
         "width": 1,
@@ -11,17 +24,24 @@
       },
       "id": "057f6c37-0793-4d3f-96d4-4350770711e9",
       "material": {
-        "type": "basic",
-        "color": "#5858df",
-        "roughness": 0.45,
-        "metalness": 0.85
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/cubev2.webm"
+        },
+        "forceTransparent": true,
+        "depthWrite": false,
+        "side": "double",
+        "alphaTest": 0.5,
+        "inreMaterial": "cubev2"
       },
       "name": "Cubo",
       "order": 1.8951013216400079,
       "parentId": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
       "position": [
-        -1.221,
-        -0.498,
+        -0.886,
+        -0.987,
         0.5
       ],
       "rotation": [
@@ -31,13 +51,17 @@
         0.7071067811865475
       ],
       "scale": [
-        0.466,
-        0.466,
-        0.466
+        0.781,
+        0.435,
+        0.435
       ],
       "shadow": {
         "castShadow": true,
         "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
       }
     },
     "2dd45d24-c41d-48cf-bd71-d05d708fa6ed": {
