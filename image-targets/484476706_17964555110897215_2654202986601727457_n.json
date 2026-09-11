@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/484476706_17964555110897215_2654202986601727457_n_luminance.png",
+  "resources": {
+    "originalImage": "484476706_17964555110897215_2654202986601727457_n_original.png",
+    "croppedImage": "484476706_17964555110897215_2654202986601727457_n_cropped.png",
+    "thumbnailImage": "484476706_17964555110897215_2654202986601727457_n_thumbnail.png",
+    "luminanceImage": "484476706_17964555110897215_2654202986601727457_n_luminance.png"
+  },
+  "name": "484476706_17964555110897215_2654202986601727457_n",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 1080,
+    "height": 1334,
+    "isRotated": false,
+    "originalWidth": 1080,
+    "originalHeight": 1334
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1789090794697,
+  "updated": 1789090794697
+}

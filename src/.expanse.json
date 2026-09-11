@@ -1,26 +1,7 @@
 {
-  "entrySpaceId": "ada80a43-634b-45c0-8bb6-00621557b6cb",
-  "inreTimeline": {
-    "duration": 5,
-    "fps": 30,
-    "loop": true,
-    "autoplay": true,
-    "items": [
-      {
-        "object": "22fa1f8a-4d2e-4529-b303-37ea3dbae621",
-        "tracks": [],
-        "segments": [
-          {
-            "clip": "mixamo.com",
-            "start": 0,
-            "duration": 16.833
-          }
-        ]
-      }
-    ]
-  },
+  "entrySpaceId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
   "objects": {
-    "0be05f3c-603d-420f-ba21-e9f232d45611": {
+    "03114ca2-a6b4-47e9-83ec-1360afd907c2": {
       "components": {},
       "geometry": {
         "type": "box",
@@ -28,74 +9,19 @@
         "height": 1,
         "depth": 1
       },
-      "id": "0be05f3c-603d-420f-ba21-e9f232d45611",
+      "id": "03114ca2-a6b4-47e9-83ec-1360afd907c2",
       "material": {
         "type": "basic",
-        "color": "#8b8b9e",
-        "roughness": 0.45,
-        "metalness": 0.05
+        "color": "#7611b6",
+        "textureFiltering": "sharp"
       },
       "name": "Cubo",
-      "order": 1.1085395276548475,
-      "parentId": "a95c0c13-aca3-432a-9e2b-75ab15334480",
+      "order": 0.793786823624745,
+      "parentId": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
       "position": [
         0,
-        -0.868,
-        0.529
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
-      ],
-      "scale": [
-        0.379,
-        0.379,
-        0.379
-      ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      }
-    },
-    "22fa1f8a-4d2e-4529-b303-37ea3dbae621": {
-      "components": {
-        "a2f6d4b2-d292-400a-867a-2ce2ecda473f": {
-          "id": "a2f6d4b2-d292-400a-867a-2ce2ecda473f",
-          "name": "inre-animacion",
-          "parameters": {
-            "autoplay": true,
-            "bucle": true,
-            "duracion": 5,
-            "pistas": "[]",
-            "pivoteX": 0,
-            "pivoteY": 0,
-            "pivoteZ": 0,
-            "tramos": "[{\"clip\":\"mixamo.com\",\"start\":0,\"duration\":16.833}]",
-            "velocidad": 1
-          }
-        }
-      },
-      "geometry": null,
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Wave_Hip_Hop_Dance.glb"
-        },
-        "animationClip": "mixamo.com",
-        "loop": true,
-        "paused": false
-      },
-      "id": "22fa1f8a-4d2e-4529-b303-37ea3dbae621",
-      "material": null,
-      "name": "Wave_Hip_Hop_Dance",
-      "order": 0.10853952765484753,
-      "parentId": "a95c0c13-aca3-432a-9e2b-75ab15334480",
-      "position": [
-        0,
-        0,
-        0
+        0.21800000000000008,
+        0.7930000000000003
       ],
       "rotation": [
         0.7071067811865476,
@@ -107,164 +33,23 @@
         1,
         1,
         1
-      ]
-    },
-    "30324ce3-db00-4a78-9fb9-c9540b571f87": {
-      "components": {},
-      "geometry": null,
-      "id": "30324ce3-db00-4a78-9fb9-c9540b571f87",
-      "light": {
-        "type": "directional",
-        "intensity": 1
-      },
-      "material": null,
-      "name": "Luz direccional",
-      "order": 2.5,
-      "parentId": "ada80a43-634b-45c0-8bb6-00621557b6cb",
-      "position": [
-        20,
-        50,
-        10
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "317dceee-9af4-41fa-9145-a771835a2f2b": {
-      "camera": {
-        "type": "perspective",
-        "fov": 60,
-        "nearClip": 0.01,
-        "farClip": 1000,
-        "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "disabled",
-          "headset": "disabled",
-          "direction": "back"
-        }
-      },
-      "components": {},
-      "geometry": null,
-      "id": "317dceee-9af4-41fa-9145-a771835a2f2b",
-      "material": null,
-      "name": "Cámara",
-      "order": 0.5,
-      "parentId": "ada80a43-634b-45c0-8bb6-00621557b6cb",
-      "position": [
-        0,
-        0,
-        2.265
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1.427,
-        1.427,
-        1.427
-      ]
-    },
-    "37049377-3e22-440e-aeb5-1ece2bac2f94": {
-      "components": {},
-      "geometry": {
-        "type": "box",
-        "width": 1,
-        "height": 1,
-        "depth": 1
-      },
-      "id": "37049377-3e22-440e-aeb5-1ece2bac2f94",
-      "material": {
-        "type": "basic",
-        "color": "#8b8b9e",
-        "roughness": 0.45,
-        "metalness": 0.05
-      },
-      "name": "Cubo copia copia",
-      "order": 3.1085395276548473,
-      "parentId": "a95c0c13-aca3-432a-9e2b-75ab15334480",
-      "position": [
-        -0.999,
-        0.497,
-        0.529
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
-      ],
-      "scale": [
-        0.379,
-        0.379,
-        0.379
       ],
       "shadow": {
         "castShadow": true,
         "receiveShadow": true
       }
     },
-    "84269eae-95a1-4f1c-b8d6-f531eae01560": {
-      "components": {},
-      "geometry": {
-        "type": "box",
-        "width": 1,
-        "height": 1,
-        "depth": 1
-      },
-      "id": "84269eae-95a1-4f1c-b8d6-f531eae01560",
-      "material": {
-        "type": "basic",
-        "color": "#8b8b9e",
-        "roughness": 0.45,
-        "metalness": 0.05
-      },
-      "name": "Cubo copia copia copia",
-      "order": 4.108539527654847,
-      "parentId": "a95c0c13-aca3-432a-9e2b-75ab15334480",
-      "position": [
-        1.278,
-        -0.664,
-        0.529
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
-      ],
-      "scale": [
-        0.379,
-        0.379,
-        0.379
-      ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      }
-    },
-    "9c95da69-6560-4eaf-baf2-82a21e348e20": {
+    "2dd45d24-c41d-48cf-bd71-d05d708fa6ed": {
       "components": {},
       "geometry": null,
-      "id": "9c95da69-6560-4eaf-baf2-82a21e348e20",
+      "id": "2dd45d24-c41d-48cf-bd71-d05d708fa6ed",
       "light": {
         "type": "ambient"
       },
       "material": null,
       "name": "Luz ambiental",
       "order": 1.5,
-      "parentId": "ada80a43-634b-45c0-8bb6-00621557b6cb",
+      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
       "position": [
         10,
         5,
@@ -282,17 +67,46 @@
         1
       ]
     },
-    "a95c0c13-aca3-432a-9e2b-75ab15334480": {
+    "5ac3c1b0-1fb5-4946-98be-724a04af6af4": {
       "components": {},
       "geometry": null,
-      "id": "a95c0c13-aca3-432a-9e2b-75ab15334480",
-      "imageTarget": {
-        "name": "cube1"
+      "id": "5ac3c1b0-1fb5-4946-98be-724a04af6af4",
+      "light": {
+        "type": "directional",
+        "intensity": 1
       },
       "material": null,
-      "name": "Marcador · cube1",
-      "order": 3.5,
-      "parentId": "ada80a43-634b-45c0-8bb6-00621557b6cb",
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c": {
+      "components": {},
+      "geometry": null,
+      "id": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
+      "imageTarget": {
+        "name": "484476706_17964555110897215_2654202986601727457_n"
+      },
+      "material": null,
+      "name": "Marcador · 484476706_17964555110897215_2654202986601727457_n",
+      "order": 6.5,
+      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
       "position": [
         0,
         0,
@@ -310,50 +124,49 @@
         1
       ]
     },
-    "e6b159b9-b6f0-46f8-bd94-991712ade001": {
+    "b91bf1e6-4db4-417a-998d-10e6c31301bf": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
       "components": {},
-      "geometry": {
-        "type": "box",
-        "width": 1,
-        "height": 1,
-        "depth": 1
-      },
-      "id": "e6b159b9-b6f0-46f8-bd94-991712ade001",
-      "material": {
-        "type": "basic",
-        "color": "#8b8b9e",
-        "roughness": 0.45,
-        "metalness": 0.05
-      },
-      "name": "Cubo copia",
-      "order": 2.1085395276548473,
-      "parentId": "a95c0c13-aca3-432a-9e2b-75ab15334480",
+      "geometry": null,
+      "id": "b91bf1e6-4db4-417a-998d-10e6c31301bf",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
       "position": [
-        1.134,
-        0.497,
-        0.529
+        0,
+        4.579,
+        3.313
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865475
+        0,
+        1
       ],
       "scale": [
-        0.379,
-        0.379,
-        0.379
-      ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      }
+        1,
+        1,
+        1
+      ]
     }
   },
   "spaces": {
-    "ada80a43-634b-45c0-8bb6-00621557b6cb": {
-      "activeCamera": "317dceee-9af4-41fa-9145-a771835a2f2b",
-      "id": "ada80a43-634b-45c0-8bb6-00621557b6cb",
+    "4f902e91-4a0f-4cfa-9e8a-59117df7a288": {
+      "activeCamera": "b91bf1e6-4db4-417a-998d-10e6c31301bf",
+      "id": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
       "name": "Espacio principal"
     }
   }
