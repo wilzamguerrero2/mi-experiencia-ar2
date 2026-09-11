@@ -14,26 +14,26 @@
         "type": "basic",
         "color": "#5858df",
         "roughness": 0.45,
-        "metalness": 0.05
+        "metalness": 0.85
       },
       "name": "Cubo",
-      "order": 7.5,
-      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
+      "order": 1.8951013216400079,
+      "parentId": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
       "position": [
-        -3.506,
-        0.5,
-        0
+        -1.221,
+        -0.498,
+        0.5
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865475
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.466,
+        0.466,
+        0.466
       ],
       "shadow": {
         "castShadow": true,
@@ -140,18 +140,18 @@
         "roughness": 0.7
       },
       "name": "Plano",
-      "order": 8.5,
-      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
+      "order": 2.895101321640008,
+      "parentId": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
       "position": [
         0,
-        0.204,
-        0
+        0,
+        0.204
       ],
       "rotation": [
-        -0.7071067811865475,
         0,
         0,
-        0.7071067811865475
+        0,
+        1
       ],
       "scale": [
         4.141,
@@ -223,7 +223,7 @@
       "material": {
         "color": "#ffffff",
         "roughness": 0.32,
-        "metalness": 0.6,
+        "metalness": 0.41,
         "emissiveMap": {
           "type": "asset",
           "asset": "assets/Whale_Emissive.png"
