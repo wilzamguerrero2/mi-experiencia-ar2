@@ -1,7 +1,7 @@
 {
   "entrySpaceId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
   "objects": {
-    "03114ca2-a6b4-47e9-83ec-1360afd907c2": {
+    "057f6c37-0793-4d3f-96d4-4350770711e9": {
       "components": {},
       "geometry": {
         "type": "box",
@@ -9,25 +9,26 @@
         "height": 1,
         "depth": 1
       },
-      "id": "03114ca2-a6b4-47e9-83ec-1360afd907c2",
+      "id": "057f6c37-0793-4d3f-96d4-4350770711e9",
       "material": {
         "type": "basic",
-        "color": "#7611b6",
-        "textureFiltering": "sharp"
+        "color": "#5858df",
+        "roughness": 0.45,
+        "metalness": 0.05
       },
       "name": "Cubo",
-      "order": 0.793786823624745,
-      "parentId": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
+      "order": 7.5,
+      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
       "position": [
-        0,
-        0.21800000000000008,
-        0.7930000000000003
+        -3.506,
+        0.5,
+        0
       ],
       "rotation": [
-        0.7071067811865476,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         1,
@@ -73,7 +74,8 @@
       "id": "5ac3c1b0-1fb5-4946-98be-724a04af6af4",
       "light": {
         "type": "directional",
-        "intensity": 1
+        "intensity": 1.55,
+        "color": "#1a47ff"
       },
       "material": null,
       "name": "Luz direccional",
@@ -124,6 +126,42 @@
         1
       ]
     },
+    "a5ae1b16-7764-4b40-92b5-aeaa7514a6a7": {
+      "components": {},
+      "geometry": {
+        "type": "plane",
+        "width": 4,
+        "height": 4
+      },
+      "id": "a5ae1b16-7764-4b40-92b5-aeaa7514a6a7",
+      "material": {
+        "type": "basic",
+        "color": "#6a6a7d",
+        "roughness": 0.7
+      },
+      "name": "Plano",
+      "order": 8.5,
+      "parentId": "4f902e91-4a0f-4cfa-9e8a-59117df7a288",
+      "position": [
+        0,
+        0.204,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        4.141,
+        4.141,
+        4.141
+      ],
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
     "b91bf1e6-4db4-417a-998d-10e6c31301bf": {
       "camera": {
         "type": "perspective",
@@ -161,6 +199,78 @@
         1,
         1
       ]
+    },
+    "bf5675d9-19fa-4196-954b-8ac66c2cf1b3": {
+      "components": {
+        "e5e14003-655b-4bb6-8775-31842682b91a": {
+          "id": "e5e14003-655b-4bb6-8775-31842682b91a",
+          "name": "inre-material-modelo",
+          "parameters": {
+            "conservarTexturas": false
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/biomechanical-whale-animated.glb"
+        },
+        "animationClip": "Take 001",
+        "loop": true
+      },
+      "id": "bf5675d9-19fa-4196-954b-8ac66c2cf1b3",
+      "material": {
+        "color": "#ffffff",
+        "roughness": 0.32,
+        "metalness": 0.6,
+        "emissiveMap": {
+          "type": "asset",
+          "asset": "assets/Whale_Emissive.png"
+        },
+        "normalMap": {
+          "type": "asset",
+          "asset": "assets/Whale_Normals_normal.png"
+        },
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Whale_Diffuse.png"
+        },
+        "emissiveColor": "#ff0f0f",
+        "emissiveIntensity": 40,
+        "repeatY": -1,
+        "type": "basic",
+        "roughnessMap": {
+          "type": "asset",
+          "asset": "assets/Whale_Rougness.png"
+        },
+        "normalScale": 2.7,
+        "opacity": 1,
+        "inreMaterial": "Whale_Rougness"
+      },
+      "name": "biomechanical-whale-animated",
+      "order": 0.895101321640008,
+      "parentId": "6c7e5af0-9afc-4637-aa12-f4d96ec9f06c",
+      "position": [
+        0,
+        0,
+        0.858
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.202,
+        0.202,
+        0.202
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
     }
   },
   "spaces": {
